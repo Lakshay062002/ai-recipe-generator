@@ -1,0 +1,13 @@
+intents:
+  - request_recipe
+
+actions:
+  - action_provide_recipe
+
+responses:
+  utter_greet:
+    - text: "Hello! Tell me an ingredient, and I'll suggest a recipe."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,5 @@
+rules:
+- rule: Provide a recipe
+  steps:
+  - intent: request_recipe
+  - action: action_provide_recipe

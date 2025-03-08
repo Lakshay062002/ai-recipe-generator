@@ -1,0 +1,5 @@
+nlu:
+- intent: request_recipe
+  examples: |
+    - Give me a recipe with chicken and garlic
+    
